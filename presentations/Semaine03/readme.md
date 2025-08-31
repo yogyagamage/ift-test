@@ -21,7 +21,7 @@
 - Présentation:
 
 [concept] Génération automatique de test unitaires                            
-- Nom: Natasha
+- Nom: Nathasha
 - Présentation: Link
 
 [concept] Qualité des tests générés avec l'IA                            
