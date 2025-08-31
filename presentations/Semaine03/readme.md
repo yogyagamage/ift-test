@@ -10,7 +10,7 @@
 
 [concept] Unit Test Smells           
 - Nom: Natalie
-- Présentation:
+- Présentation: link2
 
 [concept] Programmation pilotée par le comportement (BDD)
 - Nom:
