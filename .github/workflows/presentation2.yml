@@ -102,7 +102,7 @@ jobs:
       - name: Add approval label
         if: steps.validate.outputs.valid == 'true'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
           gh pr review ${{ github.event.pull_request.number }} --approve --body "Auto-approuvé."
           
@@ -112,7 +112,7 @@ jobs:
       - name: Comment on invalid PR
         if: steps.validate.outputs.valid == 'false'
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
           gh pr comment ${{ github.event.pull_request.number }} --body "Cette PR ne peut pas être auto-approuvée. Seules les modifications suivantes sont autorisées dans les fichiers readme:
           
