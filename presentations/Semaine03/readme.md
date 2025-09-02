@@ -9,8 +9,8 @@
 - Présentation:
 
 [concept] Unit Test Smells           
-- Nom:
-- Présentation:
+- Nom: Natalie
+- Présentation: link2
 
 [concept] Programmation pilotée par le comportement (BDD)
 - Nom:
@@ -21,8 +21,8 @@
 - Présentation:
 
 [concept] Génération automatique de test unitaires                            
-- Nom:
-- Présentation:
+- Nom: Natasha
+- Présentation: Link
 
 [concept] Qualité des tests générés avec l'IA                            
 - Nom:
